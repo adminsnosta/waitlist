@@ -512,8 +512,8 @@ p{ text-align:justify;hyphens:auto }
 .rail-controls{display:flex;align-items:center;justify-content:space-between;width:100%;min-height:29px}
 .theme-toggle{display:inline-flex;align-items:center;justify-content:center;flex:none;width:29px;height:29px;padding:0;border:1px solid #9daaba;border-radius:50%;background:transparent;color:#263756;cursor:pointer;line-height:1;transition:background .2s,color .2s,border-color .2s}
 .theme-toggle:hover,.theme-toggle:focus-visible{background:#d6e0e9;border-color:#405c91;outline-offset:3px}
-.theme-icon{font-family:Georgia,serif;font-style:normal;font-size:20px;line-height:1}
-.theme-icon-sun{display:none;font-size:17px}
+.theme-icon{line-height:0}.theme-icon svg{display:block}
+.theme-icon-sun{display:none}
 html[data-theme="dark"] .theme-icon-moon{display:none}
 html[data-theme="dark"] .theme-icon-sun{display:inline}
 .mobile-header-actions{display:none}
