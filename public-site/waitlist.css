@@ -1,0 +1,39 @@
+.waitlist-body{min-height:100vh;display:flex;flex-direction:column;background:var(--paper);color:var(--ink)}
+.waitlist-body [hidden]{display:none!important}
+.waitlist-header{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:28px clamp(24px,5vw,78px)}
+.waitlist-back{font-size:12px;font-weight:700;color:var(--rust)}
+.waitlist-main{width:min(100% - 96px,1060px);margin:auto;display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(50px,8vw,130px);align-items:center;padding:80px 0 100px}
+.waitlist-eyebrow{margin:0 0 28px;font-size:11px;font-weight:750;letter-spacing:.11em;color:var(--rust)}
+.waitlist-intro h1{font:700 clamp(58px,7vw,91px)/.96 var(--serif);letter-spacing:-.04em;margin:0 0 29px}
+.waitlist-intro h1 em{color:var(--rust)}
+.waitlist-description{max-width:380px;margin:0;font-size:19px;line-height:1.45;color:var(--muted)}
+.waitlist-small-note{margin:46px 0 0;font:italic 13px/1.4 var(--editorial);color:var(--muted)}
+.waitlist-signup{min-width:0;padding:36px;background:var(--nosta-cream);border:1px solid var(--line);box-shadow:9px 10px 0 #1d438712}
+.waitlist-signup h2{margin:0 0 12px;font:700 29px/1.08 var(--serif);letter-spacing:-.03em}
+.waitlist-form-copy{margin:0 0 22px;font-size:14px;line-height:1.5;color:var(--muted)}
+#waitlist-form label{display:block;margin-bottom:8px;font-size:12px;font-weight:700}
+#waitlist-email{width:100%;min-height:49px;padding:12px;border:1px solid #8190a1;border-radius:0;background:transparent;color:var(--ink);font:15px var(--sans)}
+#waitlist-email::placeholder{color:#697a90}
+#waitlist-email:focus-visible{outline:2px solid var(--rust);outline-offset:3px}
+.waitlist-email-note{font-size:11px;color:var(--muted);margin:9px 0 26px}
+.waitlist-honey{position:absolute;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none}
+#waitlist-submit{display:flex;align-items:center;justify-content:space-between;gap:15px;width:100%;min-height:49px;padding:13px 17px;border:0;border-radius:0;background:#1d4387;color:#fff3bb;font:700 13px var(--sans);cursor:pointer}
+#waitlist-submit:hover{background:#2b60ab}
+#waitlist-submit:disabled{cursor:not-allowed;opacity:.55}
+.waitlist-no-password{margin:18px 0 0;color:var(--muted);font-size:10px;line-height:1.5}
+.thanks-main{width:min(100% - 48px,760px);margin:auto;padding:80px 0 115px}
+.thanks-main h1{font:700 clamp(56px,8vw,92px)/.98 var(--serif);letter-spacing:-.04em;margin:0 0 28px}
+.thanks-main>p:not(.waitlist-eyebrow){max-width:540px;color:var(--muted);font-size:19px;line-height:1.5}
+.thanks-main .waitlist-back{display:inline-block;margin-top:28px;font-size:13px}
+.thanks-main .thanks-contact{font-size:13px!important;margin-top:30px}
+.thanks-contact a{text-decoration:underline;text-underline-offset:3px;color:var(--rust)}
+.waitlist-footer{display:flex;justify-content:space-between;gap:20px;padding:22px clamp(24px,5vw,78px);color:var(--muted);font-size:10px}
+.waitlist-footer a{text-decoration:underline;text-underline-offset:3px}
+.waitlist-footer a:hover,.waitlist-footer a:focus-visible{color:var(--rust)}
+html[data-theme="dark"] .waitlist-signup{background:#1a3155;border-color:#4c6284;box-shadow:9px 10px 0 #06112766}
+html[data-theme="dark"] #waitlist-email{border-color:#96a3ad;color:#f8edb8}
+html[data-theme="dark"] #waitlist-email::placeholder{color:#b3baa9}
+html[data-theme="dark"] #waitlist-submit{background:#f2d45c;color:#17396f}
+html[data-theme="dark"] #waitlist-submit:hover{background:#ffe58b}
+@media(max-width:760px){.waitlist-header{padding:24px}.waitlist-header .nosta-logo{width:135px}.waitlist-back{font-size:11px}.waitlist-main{width:min(100% - 48px,520px);grid-template-columns:1fr;gap:36px;padding:45px 0 65px}.waitlist-intro h1{font-size:clamp(53px,11vw,75px)}.waitlist-description{font-size:17px}.waitlist-small-note{display:none}.waitlist-signup{padding:28px}.waitlist-footer{padding:20px 24px;font-size:9px}}
+@media(max-width:380px){.waitlist-header{padding-inline:18px}.waitlist-header .nosta-logo{width:115px}.waitlist-main{width:calc(100% - 36px)}.waitlist-signup{padding:23px}.waitlist-intro h1{font-size:52px}}

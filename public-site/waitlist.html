@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7edb6">
+  <meta name="description" content="join the nosta waitlist for access to a social home for future memories.">
+  <title>nosta</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <script src="./theme.js"></script>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./palette.css">
+  <link rel="stylesheet" href="./waitlist.css">
+  <script src="./waitlist.js" defer></script>
+</head>
+<body class="waitlist-body">
+  <header class="waitlist-header">
+    <a href="./index.html" aria-label="nosta home"><span class="nosta-logo"><img src="./assets/nosta-newspaper-logo.png" alt="nosta"></span></a>
+    <a class="waitlist-back" href="./index.html">back to nosta ↗</a>
+  </header>
+
+  <main class="waitlist-main">
+    <section class="waitlist-intro" aria-labelledby="waitlist-title">
+      <p class="waitlist-eyebrow">nosta / early access</p>
+      <h1 id="waitlist-title">join the<br><em>waitlist.</em></h1>
+      <p class="waitlist-description">we’re getting nosta ready. sign up to hear when full platform access opens.</p>
+      <p class="waitlist-small-note">a little place for later</p>
+    </section>
+
+    <section class="waitlist-signup" aria-labelledby="signup-title">
+      <div id="waitlist-entry">
+        <h2 id="signup-title">sign up for access.</h2>
+        <p class="waitlist-form-copy">just your email for now. you’ll create your account when you’re invited.</p>
+        <form id="waitlist-form" action="https://formsubmit.co/adminsnosta@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="you’re on the nosta waitlist">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_autoresponse" value="hi,&#10;&#10;thanks for joining nosta. your email is on our early access list. we’ll write to you when the platform is ready.&#10;&#10;until then, keep making memories.&#10;&#10;questions? email us at adminsnosta@gmail.com or find us on instagram: https://www.instagram.com/buildingnosta/&#10;&#10;team nosta">
+          <input type="hidden" name="_next" id="waitlist-next">
+          <input type="hidden" name="_url" id="waitlist-url">
+          <label for="waitlist-email">your email</label>
+          <input id="waitlist-email" name="email" type="email" autocomplete="email" autocapitalize="none" spellcheck="false" maxlength="254" placeholder="you@example.com" required>
+          <input class="waitlist-honey" name="_honey" type="text" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <p class="waitlist-email-note">we’ll only email you about early access. your address goes to the nosta team inbox.</p>
+          <button id="waitlist-submit" type="submit"><span>join the waitlist</span><span aria-hidden="true">↗</span></button>
+        </form>
+        <p class="waitlist-no-password">no password. no payment. just a place in line.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="waitlist-footer"><span>© nosta</span><a href="mailto:adminsnosta@gmail.com?subject=nosta%20question">questions? email us</a></footer>
+</body>
+</html>

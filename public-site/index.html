@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7edb6">
+  <meta name="description" content="nosta is a place to capture today and rediscover tomorrow.">
+  <title>nosta</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <script src="./theme.js"></script>
+  <link rel="stylesheet" href="./styles.css?v=11">
+  <link rel="stylesheet" href="./palette.css?v=2">
+  <script src="./main.js?v=3" defer></script>
+</head>
+<body>
+<div class="loading-screen" role="status" aria-live="polite" aria-label="loading nosta">
+  <span class="loading-mark"><img src="./assets/nosta-newspaper-logo.png" alt="nosta"></span>
+  <span class="loading-caption">a little place for later</span>
+  <span class="loading-track" aria-hidden="true"><span></span></span>
+</div>
+<aside class="theme-rail" aria-label="explore nosta">
+  <div class="theme-rail-title"><span>index</span></div>
+  <nav class="theme-rail-nav" aria-label="page sections">
+    <a href="#top"><span class="rail-number" aria-hidden="true">01</span><span class="rail-label">home</span></a>
+    <a href="#the-idea"><span class="rail-number" aria-hidden="true">02</span><span class="rail-label">the idea</span></a>
+    <a href="#discover"><span class="rail-number" aria-hidden="true">03</span><span class="rail-label">then & now</span></a>
+    <a href="#your-future"><span class="rail-number" aria-hidden="true">04</span><span class="rail-label">for later</span></a>
+  </nav>
+  <div class="theme-rail-bottom"><div class="rail-controls"><a class="rail-signin" href="./waitlist.html">sign up</a><button class="theme-toggle" type="button" data-theme-toggle aria-label="switch to dark theme" aria-pressed="false" title="switch to dark theme"><span class="theme-icon theme-icon-moon" aria-hidden="true">☾</span><span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span></button></div><a class="rail-join" href="./waitlist.html">open nosta <span aria-hidden="true">↗</span></a><small>nosta / issue 001</small></div>
+</aside>
+<main class="site-shell">
+  <header class="site-header" id="top">
+    <a class="header-logo" href="./index.html" aria-label="nosta home"><span class="nosta-logo"><img src="./assets/nosta-newspaper-logo.png" alt="nosta"></span></a>
+    <div class="mobile-header-actions"><a href="./waitlist.html">sign up</a><button class="theme-toggle" type="button" data-theme-toggle aria-label="switch to dark theme" aria-pressed="false" title="switch to dark theme"><span class="theme-icon theme-icon-moon" aria-hidden="true">☾</span><span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span></button></div>
+  </header>
+
+  <section class="hero section-wrap" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="eyebrow">a social time capsule</p>
+      <h1 id="hero-title">tomorrow<br><em>you'll savour</em><br>what happened today.</h1>
+      <p class="hero-description">write a post now and choose when it appears. years later, the same moment has a different meaning.</p>
+      <a class="hero-enter" href="./waitlist.html">enter nosta <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="hero-envelope"><span class="envelope-mark">post queue / 001</span><span class="envelope-address">captured<br>26.10.26</span></div>
+      <div class="hero-letter"><div class="letter-top"><span>26 oct 2026</span><span>private draft</span></div><p class="letter-salutation">ahmedabad · 6:42 pm</p><p class="letter-body">we stayed until the streetlights came on.</p><span class="letter-signature">scheduled for 26 oct 2031</span></div>
+      <div class="hero-ticket"><span>publish date</span><strong>26.10.31</strong><small>example post / 001</small></div>
+    </div>
+  </section>
+
+  <section class="intro-strip" id="the-idea" aria-labelledby="idea-title">
+    <div class="section-wrap intro-strip-inner">
+      <div class="intro-lead"><span class="intro-number">the idea</span><h2 id="idea-title">made today.<br><em>opened later.</em></h2></div>
+      <div class="intro-copy"><p>write a post while the moment is still fresh. add a photograph, choose a date months or years ahead, then leave it alone. the post waits privately until that day arrives.</p></div>
+      <figure class="intro-film">
+        <img src="./assets/three-idiots-september-5.jpg" alt="two scenes from 3 idiots: september 5 marked on a wall and shown on a phone calendar" width="800" height="818" loading="lazy">
+        <figcaption><span>3 idiots, 2009</span><p>a date set years earlier sends friends looking for rancho.</p><p>nosta takes that feeling and gives it a place to live. make the post today. choose the day it comes back. let time give it a different meaning.</p></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="discover-section section-wrap" id="discover" aria-labelledby="discover-title">
+    <div class="section-heading"><div><p class="eyebrow">from the archive</p><h2 id="discover-title">places<br><em>over time.</em></h2></div><p>drag to compare older photographs with newer views. each pair shows a place from different viewpoints.</p></div>
+    <article class="story-card story-card-featured">
+      <div class="comparison" data-comparison role="group" aria-label="ellis bridge: compare 1901 and 2011">
+        <img class="comparison-image comparison-after" src="./assets/ellis-2011.jpg" alt="ellis bridge in ahmedabad, photographed in 2011" draggable="false">
+        <img class="comparison-image comparison-before" src="./assets/ellis-1901.webp" alt="ellis bridge in ahmedabad, photographed around 1901" draggable="false">
+        <span class="comparison-pill comparison-pill-before">then <strong>1901</strong></span><span class="comparison-pill comparison-pill-after">now <strong>2011</strong></span>
+        <input class="comparison-range" type="range" min="0" max="100" value="52" aria-label="reveal ellis bridge in 1901 or 2011">
+        <span class="comparison-divider" aria-hidden="true"></span><span class="comparison-handle" aria-hidden="true">↔</span><span class="comparison-help" aria-hidden="true">drag to explore</span>
+      </div>
+      <div class="story-details"><div class="story-index">archive note 01 <span>/</span> ahmedabad, india</div><h3>ellis<br>bridge</h3><p>a crossing that outlived the century around it. different photographs, one familiar name.</p><span class="story-tag">slide to see the years <span aria-hidden="true">↗</span></span></div>
+    </article>
+    <article class="story-card story-card-secondary">
+      <div class="story-details"><div class="story-index">archive note 02 <span>/</span> sydney, australia</div><h3>harbour<br>bridge</h3><p>an unfinished arch became a city's silhouette. the harbour has watched every chapter.</p><span class="story-tag">slide to see the years <span aria-hidden="true">↗</span></span></div>
+      <div class="comparison" data-comparison role="group" aria-label="sydney harbour bridge: compare 1930 and 2025">
+        <img class="comparison-image comparison-after" src="./assets/sydney-2025.jpg" alt="sydney harbour bridge photographed in october 2025" draggable="false">
+        <img class="comparison-image comparison-before" src="./assets/sydney-1930.jpg" alt="sydney harbour bridge under construction in may 1930" draggable="false">
+        <span class="comparison-pill comparison-pill-before">then <strong>1930</strong></span><span class="comparison-pill comparison-pill-after">now <strong>2025</strong></span>
+        <input class="comparison-range" type="range" min="0" max="100" value="52" aria-label="reveal sydney harbour bridge in 1930 or 2025">
+        <span class="comparison-divider" aria-hidden="true"></span><span class="comparison-handle" aria-hidden="true">↔</span><span class="comparison-help" aria-hidden="true">drag to explore</span>
+      </div>
+    </article>
+    <p class="image-context">photographs are from different viewpoints; the swipe explores time rather than an exact frame match. <a href="#image-credits">view image credits</a></p>
+  </section>
+
+  <section class="future-section" id="your-future" aria-labelledby="future-title"><div class="section-wrap future-grid">
+    <div class="future-copy"><p class="eyebrow eyebrow-light">post now / publish later</p><h2 id="future-title">choose a date.<br><em>the post waits.</em></h2><p>add a photo and a note. choose a future date. the post stays private until then.</p><a class="button-light" href="./waitlist.html">enter nosta <span aria-hidden="true">↗</span></a></div>
+    <div class="post-demo">
+    <div class="post-demo-note" aria-hidden="true"><span class="post-demo-cloud"><svg viewBox="0 0 230 112" preserveAspectRatio="none"><path d="M54 92C32 92 17 79 17 60c0-18 13-31 31-33C55 13 69 6 84 8c16 1 28 9 35 21 11-7 25-6 36 1 8-5 18-6 27-3 15 5 23 16 25 29 13 4 21 14 21 27 0 18-15 29-35 29H54Z"/></svg><span>double tap the photo<br>to leave a star</span></span><svg class="post-demo-arrow" viewBox="0 0 170 230" preserveAspectRatio="none" fill="none"><path d="M10 10C35 40 35 110 10 160C5 188 36 200 112 214"/><path d="m112 214-14-12M112 214l-17 5"/></svg><svg class="post-demo-arrow-mobile" viewBox="0 0 100 175" fill="none"><path d="M12 8C64 34 88 79 59 151"/><path d="m59 151-11-16M59 151l17-8"/></svg></div>
+    <article class="post-preview" aria-label="example of a nosta post">
+      <header class="post-preview-header"><span class="post-profile" aria-hidden="true"><img src="./assets/nosta-yash-profile.jpg" alt=""></span><span class="post-username">ṉ/yashplusraj</span><span class="post-scheduled">scheduled on 30th november</span></header>
+      <div class="post-preview-photo" role="img" aria-label="three friends together at abhiyakti. double tap to leave a star." title="double tap to leave a star">
+        <img src="./assets/nosta-trio-abhiyakti.jpg" alt="" loading="lazy">
+        <span class="post-star-burst" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="m16 2.5 4.1 8.4 9.3 1.3-6.7 6.6 1.6 9.2L16 23.6 7.7 28l1.6-9.2-6.7-6.6 9.3-1.3L16 2.5Z"/></svg></span>
+      </div>
+      <div class="post-preview-actions" aria-label="post actions">
+        <button class="post-action post-action-star" type="button" data-star-button data-count="66" aria-label="star this post" aria-pressed="false"><svg class="star-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="m16 2.5 4.1 8.4 9.3 1.3-6.7 6.6 1.6 9.2L16 23.6 7.7 28l1.6-9.2-6.7-6.6 9.3-1.3L16 2.5Z"/></svg><span class="post-action-count" hidden></span></button>
+        <button class="post-action" type="button" data-post-action="comment" data-count="4" aria-label="view 4 comments"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 6.5h20v17H14l-7 4v-4H6z"/><path d="M11 13h10M11 17h7"/></svg><span class="post-action-count" hidden></span></button>
+        <button class="post-action" type="button" data-post-action="share" data-count="0" aria-label="share this post"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="8" cy="16" r="3"/><circle cx="24" cy="7" r="3"/><circle cx="24" cy="25" r="3"/><path d="m11 14.5 10-6M11 17.5l10 6"/></svg><span class="post-action-count" hidden></span></button>
+      </div>
+      <div class="post-preview-content"><p class="post-preview-caption">heiley came back after a year. on 30 november, our og trio finally went to abhiyakti together. since then, all three of us have been waiting to meet again and hang out.</p><div class="post-preview-comments" aria-label="comments on this post" tabindex="-1"><p><strong>ṉ/heileyjoshi</strong> miss you guys 🥹</p><p><strong>ṉ/pankiniii</strong> u had a funny haircut, i still remember lol</p><p><strong>ṉ/sahil_bhonsale</strong> u guys goofy ahh bwahahha</p><p><strong>ṉ/jainisomani</strong> cuteeee</p></div><p class="post-preview-time">18 seconds ago</p><p class="post-preview-feedback" role="status" aria-live="polite" hidden></p></div>
+    </article>
+    </div>
+    <a class="future-mobile-cta button-light" href="./waitlist.html">enter nosta <span aria-hidden="true">↗</span></a>
+  </div></section>
+
+  <section class="connection-section section-wrap" aria-labelledby="connection-title"><div><p class="eyebrow">after it arrives</p><h2 id="connection-title">a memory can start<br><em>a conversation.</em></h2></div><p>leave a thought on a published post, or keep the conversation between two people in messages.</p></section>
+
+  <footer class="site-footer" id="image-credits"><div class="section-wrap footer-main"><div><span class="nosta-logo"><img src="./assets/nosta-newspaper-logo.png" alt="nosta"></span><p>a little place for later</p></div><div class="footer-links"><a href="#discover">discover</a><a href="#the-idea">the idea</a><a href="./waitlist.html">sign up</a></div></div><div class="section-wrap footer-credits"><span>© nosta</span><details><summary>image credits</summary><p><em>3 idiots</em> film scenes: © <a href="https://vinodchoprafilms.com/movies/3-idiots/" target="_blank" rel="noreferrer">vinod chopra films</a>; image composition from a <a href="https://www.linkedin.com/posts/rudranilbhattacharjee_3idiots-agenticai-softwareengineering-activity-7369716349708787715-qBpE" target="_blank" rel="noreferrer">public post</a>. ellis bridge, 1901: <a href="https://oldpik.com/en/picture/_QdSI2jMEpo" target="_blank" rel="noreferrer">oldpik collection</a>. ellis bridge, 2011: <a href="https://commons.wikimedia.org/wiki/File:Old_bridge_of_ahmedabad.JPG" target="_blank" rel="noreferrer">glitterchirag / wikimedia commons</a>, cc by-sa 3.0. sydney, 1930: <a href="https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge_under_construction_(7606868638).jpg" target="_blank" rel="noreferrer">samuel j. hood studio / australian national maritime museum</a>. sydney, 2025: <a href="https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge-16_October_2025.jpg" target="_blank" rel="noreferrer">servite et contribuere / wikimedia commons</a>, cc0.</p></details></div></footer>
+</main>
+</body>
+</html>
