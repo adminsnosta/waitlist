@@ -72,6 +72,7 @@ body{background:var(--paper);color:var(--ink)}
 .footer-links a:hover,.footer-links a:focus-visible{color:#ffdb55;text-decoration-color:currentColor}
 .footer-main p,.footer-credits{color:#e0d49c}
 .footer-credits{border-color:#7293c3}
+.footer-credits em{color:inherit;font-style:italic}
 .has-js .loading-screen{background:#f1df89;color:#1d4387}
 .loading-track{background:#b6b678}.loading-track span{background:#1d4387}
 
