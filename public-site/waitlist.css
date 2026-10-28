@@ -20,6 +20,7 @@
 #waitlist-submit{display:flex;align-items:center;justify-content:space-between;gap:15px;width:100%;min-height:49px;padding:13px 17px;border:0;border-radius:0;background:#1d4387;color:#fff3bb;font:700 13px var(--sans);cursor:pointer}
 #waitlist-submit:hover{background:#2b60ab}
 #waitlist-submit:disabled{cursor:not-allowed;opacity:.55}
+.waitlist-feedback{min-height:1.5em;margin:12px 0 0;color:var(--nosta-blue);font-size:12px;line-height:1.5}
 .waitlist-no-password{margin:18px 0 0;color:var(--muted);font-size:10px;line-height:1.5}
 .thanks-main{width:min(100% - 48px,760px);margin:auto;padding:80px 0 115px}
 .thanks-main h1{font:700 clamp(56px,8vw,92px)/.98 var(--serif);letter-spacing:-.04em;margin:0 0 28px}
